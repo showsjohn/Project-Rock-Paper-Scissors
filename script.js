@@ -7,6 +7,11 @@ let computerScore = 0;
 let drawCounter = 0;
 let choice = '';
 
+
+//Welcomes the player and starts the main game loop
+alert("Welcome to Rock, Paper, Scissors!");
+game();
+
 //Get random choice for Computer player
 function computerChoice(rps){
     return rps[Math.floor(Math.random() * 3 )];
@@ -64,8 +69,6 @@ function game(){
     `);
 }
 
-//Welcomes the player and starts the main game loop
-alert("Welcome to Rock, Paper, Scissors!");
-game();
+
 
 
